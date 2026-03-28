@@ -1,0 +1,27 @@
+{
+  "name": "claude-test-orchestrator",
+  "version": "1.0.0",
+  "description": "AI-powered test orchestration skill for Claude Code -- unit tests (Vitest/Jest) and E2E tests (Playwright) with parallel subagents",
+  "author": "creo-kit",
+  "license": "MIT",
+  "homepage": "https://github.com/creo-kit/claude-test-orchestrator",
+  "skills": [
+    {
+      "name": "creo-test",
+      "path": "skills/creo-test/SKILL.md",
+      "description": "Test orchestrator -- routes to unit test and E2E test subagents"
+    }
+  ],
+  "agents": [
+    {
+      "name": "creo-unit-test",
+      "path": "agents/creo-unit-test.md",
+      "description": "Unit and integration test specialist (Vitest/Jest/Testing Library)"
+    },
+    {
+      "name": "creo-e2e-test",
+      "path": "agents/creo-e2e-test.md",
+      "description": "End-to-end test specialist (Playwright)"
+    }
+  ]
+}
