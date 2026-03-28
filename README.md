@@ -1,3 +1,5 @@
+<p align="center"><img src="screenshots/cover-image.svg" alt="claude-test-orchestrator" width="100%" /></p>
+
 # claude-test-orchestrator
 
 AI-powered test orchestration skill for Claude Code -- unit tests (Vitest/Jest) and E2E tests (Playwright) with parallel subagents.
